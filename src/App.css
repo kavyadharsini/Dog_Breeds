@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  margin: 120px 0px 0px 0px;
+}
+
+.card-thumbnail{
+  width: 100%;
+}
+
+/* --- nav bar --- start*/
+.nav-bar{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 120px;
+  background-color: rgb(228, 178, 178);
+}
+#breed-dropdown-btn{
+  position: absolute;
+  top: 40px;
+  right: 24px;
+}
+
+#dog-icon{
+  width: 36px;
+  height: auto;
+  float: left;
+  position: absolute;
+  top: 45px;
+}
+/* --- nav bar --- end*/
+
+/* --- intro --- start*/
+#intro{
+  padding: 50px 100px 100px 100px;
+}
+/* --- intro --- end*/
+
+.card-thumb-container{
+  width: 100%;
+}
+
+/* --- cards --- start*/
+.gds-card__img-container{
+  max-height: 10rem!important;
+}
+
+.gds-card-no-bottom{
+  margin-bottom: 0!important;
+}
+/* --- cards --- end*/
+
+/* --- footer --- start*/
+.footer {
+  margin-top: 120px;
+  width: 100vw;
+  height: 300px;
+  padding: 72px;
+  /* background: #fff; */
+  background-image: linear-gradient(-225deg, #e9bae9 0%, #a5e9e8 100%);
+}
+/* --- footer --- end*/
+
+.show-breed-name {
+  height: 200px;
+}
+.show-breed-header{
+  line-height: 200px;
+}
+
+.gds-button {
+  width: 150px;
+}
+
+.show-sub-breed-name {
+  width: 150px;
+  border: solid 1px;
+  margin: 0 auto;
+}
+
+.go-back-btn {
+  width: 150px;
+  margin-top: 155px;
+  /* margin-left: 160px; */
+}
